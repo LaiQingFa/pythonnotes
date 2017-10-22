@@ -109,6 +109,27 @@ print(tinylist * 2)  # 输出两次列表
 print(list + tinylist)  # 连接列表
 
 #与Python字符串不一样的是，列表中的元素是可以改变的：
+#
+# 访问列表中的值
+list1 = ['Google', 'Runoob', 1997, 2000];
+list2 = [1, 2, 3, 4, 5, 6, 7];
+
+print("list1[0]: ", list1[0])
+print("list2[1:5]: ", list2[1:5])
+
+#删除列表中的值
+list = ['Google', 'Runoob', 1997, 2000]
+
+print(list)
+del list[2]
+print("删除第三个元素 : ", list)
+
+# 嵌套列表
+a = ['a', 'b', 'c']
+n = [1, 2, 3]
+x = [a, n]
+
+
 
 #Tuple（元组）:
 
