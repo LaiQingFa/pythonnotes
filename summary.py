@@ -148,3 +148,17 @@ print(tinydict.keys())  # 输出所有键
 print(tinydict.values())  # 输出所有值
 
 # Python数据类型转换 :http://www.runoob.com/python3/python3-data-type.html
+
+'''
+这是多行注释，用三个单引号
+这是多行注释，用三个单引号 
+这是多行注释，用三个单引号
+'''
+print("Hello, World!")
+
+"""
+这是多行注释，用三个单引号
+这是多行注释，用三个单引号 
+这是多行注释，用三个单引号
+"""
+print("Hello, World!")
