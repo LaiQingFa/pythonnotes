@@ -13,15 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pythonnotes$summary.coverage" NAME="summary Coverage Results" MODIFIED="1508657468808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonnotes$summary.coverage" NAME="summary Coverage Results" MODIFIED="1508658258261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="summary.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/summary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="156" column="22" lean-forward="true" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
+            <state relative-caret-position="100">
+              <caret line="372" column="8" lean-forward="true" selection-start-line="372" selection-start-column="8" selection-end-line="372" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508657287887</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="两种多行注释的写法">
+      <created>1508657502398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508657502398</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -179,7 +186,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Python3 基本数据类型  来源菜鸟教程" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python3 基本数据类型  来源菜鸟教程" />
+    <MESSAGE value="两种多行注释的写法" />
+    <option name="LAST_COMMIT_MESSAGE" value="两种多行注释的写法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -188,8 +196,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/summary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="156" column="22" lean-forward="true" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
+        <state relative-caret-position="100">
+          <caret line="372" column="8" lean-forward="true" selection-start-line="372" selection-start-column="8" selection-end-line="372" selection-end-column="8" />
           <folding />
         </state>
       </provider>
