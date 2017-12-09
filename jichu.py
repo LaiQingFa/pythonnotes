@@ -42,12 +42,21 @@
 #         return -x
 # print(my_abs(5))
 
-import math
-def move(x, y, step, angle):
-    nx = x + step * math.cos(angle)
-    ny = y - step * math.sin(angle)
-    return nx, ny
-x, y = move(100, 100, 60, math.pi / 6)
-print(x, y)
+# import math
+# def move(x, y, step, angle):
+#     nx = x + step * math.cos(angle)
+#     ny = y - step * math.sin(angle)
+#     return nx, ny
+# x, y = move(100, 100, 60, math.pi / 6)
+# print(x, y)
 #在语法上，返回一个tuple可以省略括号，而多个变量可以同时接收一个tuple，
 # 按位置赋给对应的值，所以，Python的函数返回多值其实就是返回一个tuple，
+
+#对list进行切片 取前3个元素
+L = ['Adam', 'Lisa', 'Bart', 'Paul']
+print(L[0:3])
+#L[0:3]表示，从索引0开始取，直到索引3为止，但不包括索引3。即索引0，1，2，正好是3个元素。
+# 如果第一个索引是0，还可以省略;只用一个 : ，表示从头到尾
+
+
+

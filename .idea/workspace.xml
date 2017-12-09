@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pythonnotes$summary.coverage" NAME="jichu Coverage Results" MODIFIED="1512832722157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonnotes$summary.coverage" NAME="jichu Coverage Results" MODIFIED="1512832881373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -30,8 +30,8 @@
       <file leaf-file-name="jichu.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jichu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="290">
+              <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -224,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512832525341</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="函数">
+      <created>1512832782972</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1512832782972</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -269,7 +276,9 @@
     <MESSAGE value="while 循环" />
     <MESSAGE value="break 语句" />
     <MESSAGE value="continue" />
-    <option name="LAST_COMMIT_MESSAGE" value="continue" />
+    <MESSAGE value="函数" />
+    <MESSAGE value="对list进行切片" />
+    <option name="LAST_COMMIT_MESSAGE" value="对list进行切片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -358,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jichu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="290">
+          <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="10" />
           <folding />
         </state>
       </provider>
