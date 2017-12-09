@@ -23,12 +23,31 @@
 # print(sum)
 
 #在循环过程中，可以用break退出当前循环，还可以用continue跳过后续循环代码，继续下一次循环。
-L = [75, 98, 59, 81, 66, 43, 69, 85]
-sum = 0.0
-n = 0
-for x in L:
-    if x < 60:
-        continue
-    sum = sum + x
-    n = n + 1
-print(sum / n)
+# L = [75, 98, 59, 81, 66, 43, 69, 85]
+# sum = 0.0
+# n = 0
+# for x in L:
+#     if x < 60:
+#         continue
+#     sum = sum + x
+#     n = n + 1
+# print(sum / n)
+
+#在Python中，定义一个函数要使用 def 语句，依次写出函数名、括号、括号中的参数和冒号:，
+# 然后，在缩进块中编写函数体，函数的返回值用 return 语句返回。
+# def my_abs(x):
+#     if x >= 0:
+#         return x
+#     else:
+#         return -x
+# print(my_abs(5))
+
+import math
+def move(x, y, step, angle):
+    nx = x + step * math.cos(angle)
+    ny = y - step * math.sin(angle)
+    return nx, ny
+x, y = move(100, 100, 60, math.pi / 6)
+print(x, y)
+#在语法上，返回一个tuple可以省略括号，而多个变量可以同时接收一个tuple，
+# 按位置赋给对应的值，所以，Python的函数返回多值其实就是返回一个tuple，
