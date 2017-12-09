@@ -6,8 +6,18 @@
 #     print(name)
 
 #和 for 循环不同的另一种循环是 while 循环，while 循环不会迭代 list 或 tuple 的元素，而是根据表达式判断循环是否结束。
-N = 10
-x = 0
-while x < N:
-    print(x)
+# N = 10
+# x = 0
+# while x < N:
+#     print(x)
+#     x = x + 1
+
+#用 for 循环或者 while 循环时，如果要在循环体内直接退出循环，可以使用 break 语句。
+sum = 0
+x = 1
+while True:
+    sum = sum + x
     x = x + 1
+    if x > 100:
+        break
+print(sum)
